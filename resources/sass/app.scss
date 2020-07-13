@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.employee-add {
+    &:focus {
+        box-shadow: none;
+    }
+
+    &:hover{
+
+    }
+
+    font-size: 24px;
+    margin: 20px 80px 40px;
+    padding: 0 10px;
+}
+
+.upload-photo{
+    +input{
+        display: none;
+    }
+}
+
+.preview-img {
+    width: 140px;
+}
